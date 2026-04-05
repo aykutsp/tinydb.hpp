@@ -1,0 +1,34 @@
+# Build output
+build/
+out/
+cmake-build-*/
+install/
+
+# IDE / editor
+.idea/
+.vscode/
+.vs/
+*.user
+*.suo
+*.sln
+*.vcxproj*
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Binaries / objects
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out

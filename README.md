@@ -1,12 +1,27 @@
+<div align="center">
+
 # tinydb.hpp
 
-[![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
+**A small, header-only, in-memory database for C++17.**
+
+[![CI](https://github.com/aykutsp/tinydb.hpp/actions/workflows/ci.yml/badge.svg)](https://github.com/aykutsp/tinydb.hpp/actions/workflows/ci.yml)
+[![C++17](https://img.shields.io/badge/C%2B%2B-17-00599C.svg?logo=cplusplus&logoColor=white)](https://en.cppreference.com/w/cpp/17)
 [![Header only](https://img.shields.io/badge/library-header--only-brightgreen.svg)](include/tinydb.hpp)
-[![CMake](https://img.shields.io/badge/build-CMake%203.16%2B-064F8C.svg)](CMakeLists.txt)
+[![CMake](https://img.shields.io/badge/build-CMake%203.16%2B-064F8C.svg?logo=cmake&logoColor=white)](CMakeLists.txt)
+[![Platforms](https://img.shields.io/badge/platforms-linux%20%7C%20macOS%20%7C%20windows-lightgrey.svg)](#build)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-success.svg)](#)
 
-A small, header-only, in-memory database for C++17.
+[![GitHub stars](https://img.shields.io/github/stars/aykutsp/tinydb.hpp?style=social)](https://github.com/aykutsp/tinydb.hpp/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/aykutsp/tinydb.hpp?style=social)](https://github.com/aykutsp/tinydb.hpp/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/aykutsp/tinydb.hpp.svg)](https://github.com/aykutsp/tinydb.hpp/issues)
+[![Last commit](https://img.shields.io/github/last-commit/aykutsp/tinydb.hpp.svg)](https://github.com/aykutsp/tinydb.hpp/commits/main)
+[![Code size](https://img.shields.io/github/languages/code-size/aykutsp/tinydb.hpp.svg)](https://github.com/aykutsp/tinydb.hpp)
+
+</div>
+
+---
+
 
 `tinydb.hpp` gives you tables, rows, and a tiny subset of SQL in a single
 header. It is designed for situations where you need structured, query-able

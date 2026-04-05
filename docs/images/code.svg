@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="'JetBrains Mono','Fira Code',Consolas,Menlo,monospace" font-size="14">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e1e2e"/>
+      <stop offset="1" stop-color="#181825"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="440" rx="10" fill="url(#bg2)"/>
+  <rect x="0" y="0" width="760" height="32" rx="10" fill="#11111b"/>
+  <circle cx="18" cy="16" r="6" fill="#f38ba8"/>
+  <circle cx="38" cy="16" r="6" fill="#f9e2af"/>
+  <circle cx="58" cy="16" r="6" fill="#a6e3a1"/>
+  <text x="380" y="21" fill="#6c7086" text-anchor="middle">examples/basic.cpp</text>
+
+  <g>
+    <text x="20" y="64" fill="#6c7086">1</text>
+    <text x="50" y="64" fill="#cba6f7">#include</text>
+    <text x="130" y="64" fill="#a6e3a1"> &lt;iostream&gt;</text>
+
+    <text x="20" y="84" fill="#6c7086">2</text>
+    <text x="50" y="84" fill="#cba6f7">#include</text>
+    <text x="130" y="84" fill="#a6e3a1"> "tinydb.hpp"</text>
+
+    <text x="20" y="124" fill="#6c7086">3</text>
+    <text x="50" y="124" fill="#89b4fa">int</text>
+    <text x="80" y="124" fill="#cdd6f4"> main() {</text>
+
+    <text x="20" y="144" fill="#6c7086">4</text>
+    <text x="70" y="144" fill="#cdd6f4">tinydb::engine db;</text>
+
+    <text x="20" y="180" fill="#6c7086">5</text>
+    <text x="70" y="180" fill="#cdd6f4">db.execute(<tspan fill="#a6e3a1">"CREATE TABLE users (id, name, age, city)"</tspan>);</text>
+
+    <text x="20" y="200" fill="#6c7086">6</text>
+    <text x="70" y="200" fill="#cdd6f4">db.execute(<tspan fill="#a6e3a1">"INSERT INTO users VALUES (1, 'Alice', 30, 'Berlin')"</tspan>);</text>
+
+    <text x="20" y="220" fill="#6c7086">7</text>
+    <text x="70" y="220" fill="#cdd6f4">db.execute(<tspan fill="#a6e3a1">"INSERT INTO users VALUES (2, 'Bob', 24, 'Tallinn')"</tspan>);</text>
+
+    <text x="20" y="240" fill="#6c7086">8</text>
+    <text x="70" y="240" fill="#cdd6f4">db.execute(<tspan fill="#a6e3a1">"INSERT INTO users VALUES (3, 'Carol', 35, 'Bursa')"</tspan>);</text>
+
+    <text x="20" y="280" fill="#6c7086">9</text>
+    <text x="70" y="280" fill="#89b4fa">auto</text>
+    <text x="110" y="280" fill="#cdd6f4"> result = db.execute(</text>
+    <text x="70" y="300" fill="#a6e3a1">    "SELECT id, name, city FROM users WHERE age &gt; 25"</text>
+    <text x="70" y="320" fill="#cdd6f4">);</text>
+
+    <text x="20" y="360" fill="#6c7086">10</text>
+    <text x="70" y="360" fill="#cdd6f4">std::cout &lt;&lt; tinydb::dump(result.rows);</text>
+
+    <text x="20" y="400" fill="#6c7086">11</text>
+    <text x="50" y="400" fill="#cdd6f4">}</text>
+  </g>
+</svg>

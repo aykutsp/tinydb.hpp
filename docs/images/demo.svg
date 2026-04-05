@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="'JetBrains Mono','Fira Code',Consolas,Menlo,monospace" font-size="14">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e1e2e"/>
+      <stop offset="1" stop-color="#181825"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="420" rx="10" fill="url(#bg)"/>
+  <rect x="0" y="0" width="760" height="32" rx="10" fill="#11111b"/>
+  <circle cx="18" cy="16" r="6" fill="#f38ba8"/>
+  <circle cx="38" cy="16" r="6" fill="#f9e2af"/>
+  <circle cx="58" cy="16" r="6" fill="#a6e3a1"/>
+  <text x="380" y="21" fill="#6c7086" text-anchor="middle">tinydb.hpp — example</text>
+
+  <g fill="#cdd6f4">
+    <text x="20" y="64"><tspan fill="#a6e3a1">$</tspan> ./tinydb_example</text>
+    <text x="20" y="96">{city: Berlin, name: Alice, id: 1}</text>
+    <text x="20" y="116">{city: Bursa,  name: Carol, id: 3}</text>
+
+    <text x="20" y="160"><tspan fill="#a6e3a1">$</tspan> ./tinydb_tests</text>
+    <text x="20" y="192" fill="#a6e3a1">All tests passed.</text>
+
+    <text x="20" y="236"><tspan fill="#a6e3a1">$</tspan> ./tinydb_benchmark</text>
+    <text x="20" y="268">rows inserted : <tspan fill="#89b4fa">50000</tspan>  (<tspan fill="#f9e2af">27.8 ms</tspan>)</text>
+    <text x="20" y="288">range scan    : <tspan fill="#89b4fa"> 4950</tspan>  (<tspan fill="#f9e2af"> 4.2 ms</tspan>)</text>
+    <text x="20" y="308">equality scan : <tspan fill="#89b4fa">25000</tspan>  (<tspan fill="#f9e2af">14.2 ms</tspan>)</text>
+
+    <text x="20" y="360"><tspan fill="#a6e3a1">$</tspan> <tspan fill="#cdd6f4">_</tspan></text>
+  </g>
+</svg>
